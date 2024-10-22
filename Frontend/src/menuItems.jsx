@@ -38,10 +38,10 @@ const getMenuItems = () => {
           title: 'Groups',
           url: 'support-groups',
         },
-        {
-          title: 'Blogs',
-          url: 'blogs',
-        },
+        // {
+        //   title: 'Blogs',
+        //   url: 'blogs',
+        // },
         {
           title: 'Quiz',
           url: 'quiz',
