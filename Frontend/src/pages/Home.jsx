@@ -26,29 +26,34 @@ const Home = () => {
         
         <div className='home-allcontent'>
 
-        <div className='home-project-intro-image'>
-          {/* <img src={img1} alt='Sukoon: Embrace, Empower, Elevate' ></img> */}
-          
-        </div>
+        
 
         <div className='home-project-intro-quote'>
-        <h3>
-          "In the journey of life, may you find solace, laughter, and the companionship of kindred souls."
-        </h3>
+          <h4>Mental health affects how we think, feel, and act. It plays a crucial role in our overall well-being and can impact our relationships, work, and daily life.</h4>
+          
+        
+        </div>
+        <div className="random-joke">
+          <header className="random-joke-header">
+            <blockquote>
+              <h2>Mental health is just as important as physical health. Our mission is to provide resources, support, and community for those navigating their mental health journey.</h2>
+            </blockquote>
+          </header>
+        </div>
+        <div className='home-project-intro'>
+        <p>Every individual's mental health journey is unique. We encourage you to take the first step towards better mental health by exploring our resources, engaging with the community, and prioritizing self-care. </p>
         </div>
 
         <div className="random-joke">
           <header className="random-joke-header">
             <blockquote>
-              <h2>{joke}</h2>
+              <h2>Mental health is just as important as physical health. Our mission is to provide resources, support, and community for those navigating their mental health journey.</h2>
             </blockquote>
           </header>
         </div>
          <div className='home-project-intro'>
         <p>
-          We hope you enjoy our jokes as much as we do. 
-          Sukoon has many such resources to make you smile even when you feel you can't. We also offer a variety of other resources to help you 
-          understand yourself better. After all we all deserve to know what is going inside us. 
+        Access to the right resources can make a significant difference in one's mental health journey. Our platform offers a range of resources, including articles, videos, and expert advice. We also provide a directory of mental health professionals and support groups, ensuring that help is just a click away. Remember, reaching out for support is a sign of strength.
         </p>
         </div>
 
